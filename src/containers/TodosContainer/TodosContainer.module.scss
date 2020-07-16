@@ -1,0 +1,29 @@
+.sectionDisplayCount {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0 12px;
+    .newTasBtn {
+        color: #fff;
+        background-color: rgb(0, 176, 116);
+        width: 147px;
+        height: 40px;
+        &:hover {
+        background-color: rgba(0, 176, 116, .8);
+        }
+    }
+}
+
+.backdrop {
+    z-index: 100;
+}
+
+.tableCell {
+    padding: 4px;;
+}
+
+.circularProgress {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
